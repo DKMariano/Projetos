@@ -1,0 +1,282 @@
+body {
+    background-color: #0a0a0a; 
+    font-family: 'Press Start 2P', monospace;
+    color: #00ff99; 
+}
+
+a {
+    color: #00ff99;
+    text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #ff007f;
+    text-decoration: underline;
+    text-shadow: 0 0 8px #ff007f; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Press Start 2P', monospace;
+    color: #00ff99;
+    background-color: #161616;
+    padding: 10px;
+    border-bottom: 2px solid #00ff99;
+    box-shadow: 0 3px 10px rgba(0, 255, 153, 0.5);
+    text-align: center;
+}
+
+div#corpo {
+    width: 900px;
+    margin: auto;
+    padding: 25px;
+    background-color: #141414;
+    box-shadow: 0px 0px 50px rgba(0, 255, 153, 0.8);
+    border-radius: 12px;
+    border: 2px solid #00ff99; 
+}
+
+form#busca {
+    font-size: 16px;
+    text-align: left;
+    border-collapse: collapse;
+    color: #00ff99;
+}
+
+table.listagem {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #00ff99;
+}
+
+table.listagem tr {
+    height: 50px;
+}
+
+table.listagem td {
+    border: 1px solid #444444;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #00ff99;
+    transition: background-color 0.3s;
+}
+
+table.listagem tr:nth-child(even) {
+    background-color: #121212; /
+}
+
+table.listagem td:hover {
+    background-color: #333333; 
+}
+
+table.listagem td:nth-child(1) {
+    width: 50px;
+    font-weight: bold;
+    color: #ff007f; /* Cor chamativa */
+    text-shadow: 0 0 5px #ff007f; /* Efeito neon */
+}
+
+table.listagem td:nth-child(3) {
+    width: 90px;
+    font-style: italic;
+    color: #ff007f;
+    text-shadow: 0 0 5px #ff007f; /* Efeito neon */
+}
+
+table.detalhes {
+    width: 100%;
+    border: 1px solid #333333;
+    box-shadow: 0px 0px 20px rgba(0, 255, 153, 0.5);
+    border-radius: 8px;
+}
+
+table.detalhes td {
+    padding: 15px;
+    vertical-align: top;
+    text-align: justify;
+    color: #00ff99;
+    background-color: #1a1a1a;
+}
+
+/* Estilo para a Tabela Neon-Retro */
+table.neon-retro {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    color: #00ff99;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 153, 0.7);
+    border: 2px solid #00ff99;
+}
+
+table.neon-retro th {
+    background-color: #161616;
+    padding: 15px;
+    border-bottom: 2px solid #00ff99;
+    font-family: 'Press Start 2P', monospace;
+    color: #ff007f;
+    text-shadow: 0 0 8px #ff007f;
+}
+
+table.neon-retro td {
+    padding: 15px;
+    text-align: left;
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    transition: background-color 0.3s;
+}
+
+table.neon-retro tr:nth-child(even) {
+    background-color: #121212;
+}
+
+table.neon-retro tr:hover {
+    background-color: #333333;
+    transition: background-color 0.3s;
+}
+
+table.neon-retro td:nth-child(1) {
+    width: 50px;
+    font-weight: bold;
+    color: #ff007f;
+    text-shadow: 0 0 5px #ff007f;
+}
+
+table.neon-retro td:nth-child(2),
+table.neon-retro td:nth-child(3),
+table.neon-retro td:nth-child(4) {
+    color: #00ff99;
+    font-family: 'Press Start 2P', monospace;
+}
+
+table.neon-retro td:nth-child(3) {
+    font-style: italic;
+    color: #ff007f;
+    text-shadow: 0 0 5px #ff007f;
+}
+
+table.listagem td .material-symbols-outlined {
+    color: #ff007f; /* Cor dos ícones */
+    transition: color 0.3s; /* Transição suave para mudança de cor */
+}
+
+table.listagem td .material-symbols-outlined:hover {
+    color: #00ff99; /* Cor ao passar o mouse */
+}
+
+
+
+
+img.mini {
+    width: 50px;
+    border: 2px solid #00ff99; /* Bordas para destacar */
+    border-radius: 4px;
+}
+
+
+img.full {
+    width: auto; /* Mantém a proporção original da imagem */
+    height: 400px; /* Mantém a altura fixa */
+    
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.7);
+    transition: all 0.3s; /* Transições suaves para todas as propriedades */
+}
+
+img.full:hover {
+    transform: scale(1.05); /* Aumenta a imagem ligeiramente */
+    transition: transform 0.3s; /* Suaviza a transição do efeito */
+    box-shadow: 0 0 25px rgba(255, 0, 127, 1); /* Intensifica a sombra */
+}
+
+footer {
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    color: #00ff99;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #00ff99;
+    background-color: #161616;
+    box-shadow: 0 -3px 10px rgba(0, 255, 153, 0.5);
+}
+
+div.sucesso {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: rgba(0, 255, 153, 0.8); 
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 255, 153, 0.5);
+}
+
+div.aviso {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 204, 0, 0.8);
+    color: #000;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+
+div.erro {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+.btn-login {
+    float: right; /* Faz o botão flutuar à esquerda */
+    margin-right: auto; /* Espaçamento à direita do botão */
+    background-color: #00ff99; /* Cor de fundo verde */
+    color: #141414; /* Cor do texto escura */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-family: 'Press Start 2P', monospace; /* Fonte da página */
+    font-size: 14px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+
+}
+
+.btn-login:hover {
+    background-color: #ff007f; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+input[type="submit"].botao-busca {
+    background-color: #00ff99; /* Cor de fundo do botão */
+    color: #0a0a0a; /* Cor do texto do botão */
+    border: 2px solid #00ff99; /* Borda do botão */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 3px 10px; /* Espaçamento interno do botão */
+    font-family: 'Press Start 2P', monospace; /* Fonte do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Cursor em forma de ponteiro */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+input[type="submit"].botao-busca:hover {
+    background-color: #ff007f; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o botão ao passar o mouse */
+}
+
+.icon {
+    color: #00ff99; /* Define a cor verde neon para os ícones */
+    transition: color 0.3s; /* Transição suave na mudança de cor */
+}
+
+.icon:hover {
+    color: #ff007f; /* Cor ao passar o mouse (opcional) */
+}
